@@ -656,16 +656,19 @@ section {
 /* 3D Visual Experience */
 .house-3d-wrapper {
     perspective: 1200px;
+    cursor: grab;
+    position: relative;
+    overflow: hidden;
 }
 
-.house-3d-img {
-    width: 100%;
-    filter: drop-shadow(0 30px 60px rgba(0,0,0,0.3));
-    transition: transform 1s cubic-bezier(0.2, 0.6, 0.2, 1);
+.house-3d-wrapper:active {
+    cursor: grabbing;
 }
 
-.house-3d-wrapper:hover .house-3d-img {
-    transform: rotateY(-15deg) rotateX(8deg) scale(1.02);
+.house-3d-wrapper canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 @media (max-width: 768px) {

@@ -115,8 +115,8 @@
                 </p>
             </div>
             <div class="reveal" style="flex: 1;">
-                <div class="house-3d-wrapper">
-                    <img src="assets/images/house_3d.png" alt="Estructura 3D Estribo" class="house-3d-img">
+                <div id="canvas-3d" class="house-3d-wrapper" style="height: 500px; width: 100%;">
+                    <!-- Three.js Canvas will be injected here -->
                 </div>
             </div>
         </div>
@@ -321,5 +321,6 @@
 
     <!-- Modularized Scripts -->
     <script src="js/main.js"></script>
+    <script type="module" src="js/three-viewer.js"></script>
 </body>
 </html>
