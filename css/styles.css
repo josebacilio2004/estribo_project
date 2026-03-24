@@ -373,6 +373,14 @@ section {
     text-align: left;
 }
 
+.map-container iframe {
+    transition: var(--transition);
+}
+
+.map-container:hover iframe {
+    filter: grayscale(0) invert(0) contrast(1) !important;
+}
+
 /* Animations */
 .reveal {
     opacity: 0;
