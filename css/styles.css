@@ -58,6 +58,11 @@ img, video {
     padding: 0 4rem;
 }
 
+.flex-container {
+    display: flex;
+    gap: 4rem;
+}
+
 /* Navigation */
 nav {
     position: fixed;
