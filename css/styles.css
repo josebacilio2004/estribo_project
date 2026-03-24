@@ -315,7 +315,7 @@ section {
 
 .project-large { grid-column: span 8; height: 600px; }
 .project-small { grid-column: span 4; height: 600px; }
-.project-wide { grid-column: span 12; height: 500px; }
+.project-wide { grid-column: span 12; height: 600px; }
 
 /* Social Media Section */
 .social-section {
