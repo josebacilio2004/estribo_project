@@ -1,0 +1,8 @@
+# Old source files
+src/
+hero_poster.png
+philosophy_image.png
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTRIBO | Arquitectura y Construcción - Huancayo</title>
+    <link rel="icon" type="image/png" href="assets/icons/estribo-removebg-preview (1).png">
+    <link rel="apple-touch-icon" href="assets/icons/estribo-removebg-preview (1).png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Modularized Styles -->
+    <link rel="stylesheet" href="css/styles.css?v=1.2">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo-link">
+                <img src="assets/icons/estribo-removebg-preview (1).png" alt="ESTRIBO Logo">
+            </a>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#about" class="nav-link">Filosofía</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <video autoplay muted loop playsinline poster="assets/images/hero_video_frame.png" class="hero-video">
+            <source src="assets/video/clip.mp4" type="video/mp4">
+            Tu navegador no soporta el tag de video.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p>Huancayo, Perú</p>
+            <h1>Arquitectura que toma raíz</h1>
+            <a href="#projects" class="btn">Explora el portafolio</a>
+        </div>
+    </section>
+
+    <!-- Harmonious Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Colección Huancayo</span>
+                <h2 class="section-title">Obras Destacadas</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Large Featured Project -->
+                <div class="project-item project-large reveal">
+                    <img src="assets/images/project_mantaro.png" alt="Residencia Mantaro">
+                    <div class="project-overlay">
+                        <div class="project-info">
+                            <h3>Residencia Mantaro</h3>
+                            <p>Sostenibilidad y diseño frente al valle.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Side Project -->
+                <div class="project-item project-small reveal">
+                    <img src="assets/images/project_mirador.png" alt="Refugio Cumbre">
+                    <div class="project-overlay">
+                        <div class="project-info">
+                            <h3>Refugio Cumbre</h3>
+                            <p>Minimalismo en la altura andina.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wide Project -->
+                <div class="project-item project-wide reveal">
+                    <img src="assets/images/project_andes.png" alt="Edificio Altiplano">
+                    <div class="project-overlay">
+                        <div class="project-info">
+                            <h3>Edificio Altiplano</h3>
+                            <p>Integración urbana y monumental.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Philosophy -->
+    <section id="about" style="background-color: var(--color-off-white);">
+        <div class="container">
+            <div class="about-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 6rem; align-items: center;">
+                <div class="reveal">
+                    <span class="section-tag">Nuestra raíz</span>
+                    <h2 class="section-title">Solidez y Paisaje</h2>
+                    <p>Basados en Huancayo, entendemos la arquitectura como un estribo: el soporte vital que une la ambición humana con la fuerza de la tierra peruana.</p>
+                    <br>
+                    <p>Nuestra práctica se centra en el uso de materiales locales y técnicas modernas para crear espacios atemporales que resisten el clima y el paso del tiempo en los Andes.</p>
+                </div>
+                <div class="reveal">
+                    <img src="assets/images/about_philosophy.png" alt="Materialidad" style="border-radius: 2px; box-shadow: 20px 20px 0 var(--color-grey);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Presence Section -->
+    <section id="social" class="social-section">
+        <div class="container reveal">
+            <span class="section-tag">Nuestra Comunidad</span>
+            <h2 class="section-title">Encuéntranos en Redes</h2>
+            <p>Sigue de cerca nuestro proceso constructivo y las últimas tendencias en cada plataforma.</p>
+            
+            <div class="social-icons-wrapper">
+                <a href="#" class="social-icon-item" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                </a>
+                <a href="#" class="social-icon-item" aria-label="TikTok">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.86-.6-4.12-1.31a8.6 8.6 0 01-1.87-1.42v6.61a7.99 7.99 0 01-1.01 4.39 8.01 8.01 0 01-13.3-1.42A8.01 8.01 0 0113.68 7.3V.02z"/></svg>
+                </a>
+                <a href="#" class="social-icon-item" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0h-21.35C.597 0 0 .597 0 1.326v21.348C0 23.403.597 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.325-.597 1.325-1.326V1.326C24 .597 23.403 0 22.675 0z"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="reveal" style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <h2 class="section-title">Construyamos juntos</h2>
+                <p style="margin-bottom: 4rem;">Si buscas una arquitectura con propósito en la región central, hablemos.</p>
+                
+                <form class="contact-form" id="contact-form" style="text-align: left;">
+                    <div style="margin-bottom: 1.5rem;">
+                        <input type="text" placeholder="TU NOMBRE" required style="width: 100%; padding: 1.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white;">
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <input type="email" placeholder="EMAIL" required style="width: 100%; padding: 1.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white;">
+                    </div>
+                    <div style="margin-bottom: 2rem;">
+                        <textarea placeholder="MENSAJE" rows="4" required style="width: 100%; padding: 1.5rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white;"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%; border-color: var(--color-terracotta);">Enviar Consulta</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 4rem 0; background: var(--color-dark); border-top: 1px solid #222; text-align: center;">
+        <div class="container">
+            <div class="logo" style="margin-bottom: 2rem;">
+                <img src="assets/icons/logo_transparent.png" alt="ESTRIBO Logo" style="height: 30px; margin: 0 auto;">
+            </div>
+            <p style="color: #666; font-size: 0.8rem; letter-spacing: 2px;">&copy; 2024 ESTRIBO ARQUITECTURA Y CONSTRUCCIÓN | HUANCAYO, PERÚ</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/51968690021" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <svg viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.7 17.4 69.4 26.5 106.3 26.5 122.4 0 222-99.6 222-222 0-59.3-23-115.1-65.1-157.1zM223.9 446.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 365.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.5-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 54 81.2 54 130.4 0 101.7-82.8 184.5-184.5 184.5zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-5.5-2.8-23.2-8.5-44.2-27.1-16.4-14.6-27.4-32.7-30.6-38.1-3.2-5.5-.3-8.5 2.5-11.2 2.5-2.5 5.5-6.5 8.3-9.7 2.8-3.2 3.7-5.5 5.6-9.2 1.9-3.7 1-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 13.2 5.8 23.5 9.2 31.5 11.8 13.3 4.2 25.4 3.6 35 2.2 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.7z"/></svg>
+    </a>
+
+    <!-- Modularized Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
