@@ -45,51 +45,88 @@
         <div class="hero-content">
             <p>Huancayo, Perú</p>
             <h1>Arquitectura que toma raíz</h1>
-            <a href="#projects" class="btn">Explora el portafolio</a>
+            <a href="#proyectos" class="btn">Explora el portafolio</a>
         </div>
     </section>
 
-    <!-- Harmonious Projects Section -->
-    <section id="projects">
+    <!-- Projects Grid -->
+    <section id="proyectos" class="section">
         <div class="container">
-            <div class="section-header reveal">
-                <span class="section-tag">Colección Huancayo</span>
-                <h2 class="section-title">Obras Destacadas</h2>
-            </div>
+            <span class="section-tag">Obras Destacadas</span>
+            <h2 class="section-title">Nuestra Huella en <br>el Valle del Mantaro</h2>
             
             <div class="projects-grid">
-                <!-- Large Featured Project -->
-                <div class="project-item project-large reveal">
+                <div class="project-card project-large reveal">
                     <img src="assets/images/project_mantaro.png" alt="Residencia Mantaro">
                     <div class="project-overlay">
-                        <div class="project-info">
-                            <h3>Residencia Mantaro</h3>
-                            <p>Sostenibilidad y diseño frente al valle.</p>
-                        </div>
+                        <h3>Residencia Mantaro</h3>
+                        <p>Vivienda Unifamiliar | Huancayo</p>
                     </div>
                 </div>
-                
-                <!-- Side Project -->
-                <div class="project-item project-small reveal">
-                    <img src="assets/images/project_mirador.png" alt="Refugio Cumbre">
+                <div class="project-card project-small reveal">
+                    <img src="assets/images/project_andes.png" alt="Refugio de Piedra">
                     <div class="project-overlay">
-                        <div class="project-info">
-                            <h3>Refugio Cumbre</h3>
-                            <p>Minimalismo en la altura andina.</p>
-                        </div>
+                        <h3>Refugio de Piedra</h3>
+                        <p>Concepto Alpino | Jauja</p>
                     </div>
                 </div>
+                <div class="project-card project-small reveal">
+                    <img src="assets/images/project_mirador.png" alt="Mirador Huaytapallana">
+                    <div class="project-overlay">
+                        <h3>Mirador Huaytapallana</h3>
+                        <p>Instalación Turística | Sierra Central</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Wide Project -->
-                <div class="project-item project-wide reveal">
-                    <img src="assets/images/project_andes.png" alt="Edificio Altiplano">
-                    <div class="project-overlay">
-                        <div class="project-info">
-                            <h3>Edificio Altiplano</h3>
-                            <p>Integración urbana y monumental.</p>
-                        </div>
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="section" style="background: var(--color-white);">
+        <div class="container">
+            <span class="section-tag">Voces de Huancayo</span>
+            <h2 class="section-title">Confianza que <br>construye futuro</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <p class="testimonial-text">"ESTRIBO logró capturar la esencia de lo que queríamos para nuestra casa de campo. Su respeto por el paisaje de Huancayo es admirable."</p>
+                    <p class="testimonial-author">Arq. Ricardo Mendoza</p>
+                </div>
+                <div class="testimonial-card reveal">
+                    <p class="testimonial-text">"La solidez técnica y la transparencia en el proceso nos dieron la tranquilidad que necesitábamos para un proyecto de esta magnitud."</p>
+                    <p class="testimonial-author">Dra. Elena Ramos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="proceso" class="section" style="background: var(--color-light);">
+        <div class="container flex-container" style="align-items: center;">
+            <div class="reveal" style="flex: 1;">
+                <span class="section-tag">Nuestro Método</span>
+                <h2 class="section-title">Proceso <br>Constructivo</h2>
+                
+                <div class="process-container">
+                    <div class="process-item reveal">
+                        <span class="process-step">FASE 01</span>
+                        <h3 class="process-title">Conceptualización & Planos</h3>
+                        <p>Entendemos tus necesidades y las integramos con el terreno mediante anteproyectos detallados.</p>
+                    </div>
+                    <div class="process-item reveal">
+                        <span class="process-step">FASE 02</span>
+                        <h3 class="process-title">Estructura & Materialidad</h3>
+                        <p>Ejecución con los más altos estándares, priorizando materiales locales y eficiencia estructural.</p>
+                    </div>
+                    <div class="process-item reveal">
+                        <span class="process-step">FASE 03</span>
+                        <h3 class="process-title">Acabados & Entrega</h3>
+                        <p>Cuidado meticuloso en los detalles finales para garantizar una obra atemporal y lista para habitar.</p>
                     </div>
                 </div>
+            </div>
+            <div class="reveal" style="flex: 1; padding-left: 5rem;">
+                <img src="assets/images/process_hero.png" alt="Proceso Constructivo" style="border-radius: 2px;">
             </div>
         </div>
     </section>
@@ -107,6 +144,70 @@
                 </div>
                 <div class="reveal">
                     <img src="assets/images/about_philosophy.png" alt="Materialidad" style="border-radius: 2px; box-shadow: 20px 20px 0 var(--color-grey);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="equipo" class="section" style="background: var(--color-white);">
+        <div class="container">
+            <span class="section-tag">El Factor Humano</span>
+            <h2 class="section-title">Talento <br>ESTRIBO</h2>
+            
+            <div class="team-grid">
+                <div class="team-card reveal">
+                    <img src="assets/images/team_lead.png" alt="Liderazgo" class="team-image">
+                    <div class="team-info">
+                        <h3 class="team-name">José Bacilio</h3>
+                        <p class="team-role">Director de Proyectos</p>
+                    </div>
+                </div>
+                <div class="team-card reveal">
+                    <img src="assets/images/team_member_2.png" alt="Diseñador Senior" class="team-image">
+                    <div class="team-info">
+                        <h3 class="team-name">Ana Quispe</h3>
+                        <p class="team-role">Diseñadora Senior</p>
+                    </div>
+                </div>
+                <div class="team-card reveal">
+                    <img src="assets/images/team_member_3.png" alt="Especialista en Sostenibilidad" class="team-image">
+                    <div class="team-info">
+                        <h3 class="team-name">Carlos Rojas</h3>
+                        <p class="team-role">Especialista en Sostenibilidad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section" style="background: var(--color-light);">
+        <div class="container">
+            <span class="section-tag">Pensamiento</span>
+            <h2 class="section-title">Blog de <br>Tendencias</h2>
+            
+            <div class="blog-grid">
+                <div class="blog-card reveal">
+                    <img src="assets/images/blog_cover.png" alt="Arquitectura Andina" class="blog-image">
+                    <span class="blog-tag">Diseño Sostenible</span>
+                    <h3 class="blog-title">El resurgir de la materialidad andina en la vivienda moderna</h3>
+                    <p>Exploramos cómo el uso de la piedra y el tapial se fusionan con el concreto expuesto en Huancayo.</p>
+                    <a href="#" class="blog-link">Leer más</a>
+                </div>
+                <div class="blog-card reveal">
+                    <img src="assets/images/blog_cover_2.png" alt="Innovación en Construcción" class="blog-image">
+                    <span class="blog-tag">Innovación</span>
+                    <h3 class="blog-title">Tecnología BIM: Optimizando proyectos en la sierra central</h3>
+                    <p>Descubre cómo la metodología BIM revoluciona la eficiencia y precisión en nuestras obras.</p>
+                    <a href="#" class="blog-link">Leer más</a>
+                </div>
+                <div class="blog-card reveal">
+                    <img src="assets/images/blog_cover_3.png" alt="Espacios Verdes" class="blog-image">
+                    <span class="blog-tag">Urbanismo</span>
+                    <h3 class="blog-title">Integrando la naturaleza: Jardines verticales en edificios de Huancayo</h3>
+                    <p>Una mirada a la tendencia de los espacios verdes que transforman el paisaje urbano.</p>
+                    <a href="#" class="blog-link">Leer más</a>
                 </div>
             </div>
         </div>
@@ -163,12 +264,12 @@
     </section>
 
     <!-- Footer -->
-    <footer style="padding: 4rem 0; background: var(--color-dark); border-top: 1px solid #222; text-align: center;">
+    <footer>
         <div class="container">
-            <div class="logo" style="margin-bottom: 2rem;">
-                <img src="assets/icons/logo_transparent.png" alt="ESTRIBO Logo" style="height: 30px; margin: 0 auto;">
+            <div class="footer-top">
+                <img src="assets/icons/estribo-removebg-preview (1).png" alt="ESTRIBO" class="footer-logo">
+                <p>© 2024 ESTRIBO ARQUITECTURA Y CONSTRUCCIÓN | HUANCAYO, PERÚ</p>
             </div>
-            <p style="color: #666; font-size: 0.8rem; letter-spacing: 2px;">&copy; 2024 ESTRIBO ARQUITECTURA Y CONSTRUCCIÓN | HUANCAYO, PERÚ</p>
         </div>
     </footer>
 
